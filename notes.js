@@ -1,3 +1,5 @@
+// Basic setup for express app
+
 // const express = require("express")
 // const app = express();
 // const { name } = require("ejs")
@@ -19,8 +21,9 @@
 //   console.log(`http://localhost:${port}`)
 // })
 
-// Imp Db connection string ek bar hi use hoti hai 
+// Imp: Db connection string ek bar hi use hoti hai 
 
+// Database Modeling
 // userModel ->
 // full name - string
 // email - string
@@ -31,7 +34,7 @@
 // contact - number
 // picture - db
 
-// productModel
+// productModel ->
 // image
 // name
 // price
@@ -40,3 +43,10 @@
 // panelcolor
 // textcolor
 
+// ownerModel ->
+// fullname: String,
+// email: String,
+// password: String,
+// product: Array,
+// picture: String,
+// gstin: String,
