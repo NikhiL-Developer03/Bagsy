@@ -50,3 +50,14 @@
 // product: Array,
 // picture: String,
 // gstin: String,
+
+// Router setup 
+
+// Debug
+// const dbgr = require("debug")("development:mongoose")
+// debug invirnment variables
+// export DEBUG = development:*
+// if you don't want to print this 
+// export DEBUG = 
+
+
