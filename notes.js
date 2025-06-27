@@ -21,7 +21,7 @@
 //   console.log(`http://localhost:${port}`)
 // })
 
-// Imp: Db connection string ek bar hi use hoti hai 
+// Imp: Db connection string ek bar hi use hoti hai
 
 // Database Modeling
 // userModel ->
@@ -51,13 +51,27 @@
 // picture: String,
 // gstin: String,
 
-// Router setup 
+// Router setup
 
 // Debug
 // const dbgr = require("debug")("development:mongoose")
 // debug invirnment variables
 // export DEBUG = development:*
-// if you don't want to print this 
-// export DEBUG = 
+// if you don't want to print this
+// export DEBUG =
 
+// environment specific routes
+// console.log(process.env)
+// console.log(process.env.NODE_ENV);
 
+// User Authentication & Functionality
+// / -> sinup or login
+// /shop -> shop
+// /users/cart -> cart
+// /admin -> admin panel
+// /owner/products -> show all products
+// /owner/admin -> admin panel to create products
+
+// Explore Packages
+// const expressSession = require("express-session")
+// const flash = require("connect-flash")
