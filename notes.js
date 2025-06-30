@@ -96,3 +96,24 @@
 //         </span>
 //     </div>
 //     <% } %>
+
+// ----------------------
+// brown
+// text 774F3D
+// panel DEBAAE
+// bgcolor FADDD2
+
+// lightblue
+// text 48606E
+// panel D3E4EE
+// bgcolor F3F8FB
+
+// khaakibrown
+// text 5F4A30
+// panel C5B095
+// bgcolor DED0BF
+
+// pink
+// text 816264
+// panel E3C4C6
+// bgcolor F4E0E1
