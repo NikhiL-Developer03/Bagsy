@@ -87,7 +87,7 @@
 //         </div>
 //         <% } %>
 
-//--------------------------
+//---------------
 
 // <% if(success.length>0){ %>
 //     <div class="absolute top-5 left-1/2 -translate-x-1/2 -translate-y-1/2 p-3 rounded-md bg-blue-500">
@@ -97,7 +97,8 @@
 //     </div>
 //     <% } %>
 
-// ----------------------
+// --------------
+// Product Data
 // brown
 // text 774F3D
 // panel DEBAAE
@@ -117,3 +118,18 @@
 // text 816264
 // panel E3C4C6
 // bgcolor F4E0E1
+
+// -------------
+// <% var loggedin=typeof loggedin !=="undefined" ? loggedin : true %>
+//             <% if(loggedin){ %>
+//                 <div class="flex gap-5">
+//                     <a href="">Home</a>
+//                     <a href="">Shop</a>
+//                     <a href="">Cart</a>
+//                     <a href="">My Account</a>
+//                     <a class="text-red-600" href="/users/logout">Logout</a>
+//                 </div>
+// <%}%>
+
+// -----------------
+// cart page price calculate karna h and ui/ux ko improve karna h 
